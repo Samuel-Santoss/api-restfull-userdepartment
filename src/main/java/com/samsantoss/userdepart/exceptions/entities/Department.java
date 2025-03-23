@@ -1,4 +1,4 @@
-package com.samsantoss.userdepart.entities;
+package com.samsantoss.userdepart.exceptions.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

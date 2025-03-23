@@ -1,4 +1,4 @@
-package com.samsantoss.userdepart.entities;
+package com.samsantoss.userdepart.exceptions.entities;
 
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -14,7 +14,6 @@ import jakarta.persistence.Table;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Long id;
     private String name;
 

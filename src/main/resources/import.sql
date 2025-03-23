@@ -1,0 +1,27 @@
+INSERT INTO tb_department(name) VALUES ('Gestão');
+INSERT INTO tb_department(name) VALUES ('Informática');
+
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Maria', 'maria@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Bob', 'bob@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Alex', 'alex@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Maria', 'maria@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'João', 'joao@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Ana', 'ana@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Carlos', 'carlos@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Pedro', 'pedro@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Lucas', 'lucas@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Fernanda', 'fernanda@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Beatriz', 'beatriz@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Ricardo', 'ricardo@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Gabriel', 'gabriel@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Larissa', 'larissa@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Juliana', 'juliana@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Marcos', 'marcos@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Cláudia', 'claudia@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Eduardo', 'eduardo@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Sofia', 'sofia@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Tatiane', 'tatiane@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Felipe', 'felipe@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Larissa', 'larissasilva@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Gustavo', 'gustavo@gmail.com');

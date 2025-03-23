@@ -1,4 +1,4 @@
-package com.samdev.userdepart.entities;
+package com.samsantoss.userdepart.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

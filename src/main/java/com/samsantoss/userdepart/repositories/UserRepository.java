@@ -1,7 +1,7 @@
-package com.samdev.userdepart.repositories;
+package com.samsantoss.userdepart.repositories;
 
 
-import com.samdev.userdepart.entities.User;
+import com.samsantoss.userdepart.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository <User, Long>{

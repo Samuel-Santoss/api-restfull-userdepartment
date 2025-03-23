@@ -1,8 +1,8 @@
-package com.samdev.userdepart.service;
+package com.samsantoss.userdepart.service;
 
-import com.samdev.userdepart.entities.User;
-import com.samdev.userdepart.exceptions.UserNotFoundException;
-import com.samdev.userdepart.repositories.UserRepository;
+import com.samsantoss.userdepart.entities.User;
+import com.samsantoss.userdepart.exceptions.UserNotFoundException;
+import com.samsantoss.userdepart.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

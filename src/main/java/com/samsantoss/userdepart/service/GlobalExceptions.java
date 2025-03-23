@@ -1,5 +1,5 @@
-package com.samdev.userdepart.service;
-import com.samdev.userdepart.exceptions.UserNotFoundException;
+package com.samsantoss.userdepart.service;
+import com.samsantoss.userdepart.exceptions.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

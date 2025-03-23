@@ -1,4 +1,4 @@
-package com.samdev.userdepart.exceptions;
+package com.samsantoss.userdepart.exceptions;
 
 
 

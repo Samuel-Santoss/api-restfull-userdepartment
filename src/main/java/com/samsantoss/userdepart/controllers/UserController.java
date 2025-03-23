@@ -1,9 +1,9 @@
-package com.samdev.userdepart.controllers;
+package com.samsantoss.userdepart.controllers;
 
 
 
-import com.samdev.userdepart.entities.User;
-import com.samdev.userdepart.service.UserService;
+import com.samsantoss.userdepart.entities.User;
+import com.samsantoss.userdepart.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

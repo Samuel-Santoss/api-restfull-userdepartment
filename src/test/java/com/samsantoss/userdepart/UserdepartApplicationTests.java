@@ -1,4 +1,4 @@
-package com.samdev.userdepart;
+package com.samsantoss.userdepart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

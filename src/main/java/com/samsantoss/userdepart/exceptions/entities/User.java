@@ -1,5 +1,6 @@
 package com.samsantoss.userdepart.entities;
 
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,7 +17,7 @@ public class User {
 
     private Long id;
     private String name;
-    private String email;
+
 
     @ManyToOne
     @JoinColumn(name = "department_id")
@@ -43,19 +44,22 @@ public class User {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public Department getDepartment() {
         return department;
     }
 
     public void setDepartment(Department department) {
         this.department = department;
+    }
+
+    @Embedded // Diz ao JPA que "Email" será armazenado como um campo na tabela
+    private Email email;
+
+    public Email getEmail() {
+        return email;
+    }
+
+    public void setEmail(Email email) {
+        this.email = email;
     }
 }
